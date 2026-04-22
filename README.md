@@ -43,3 +43,10 @@ SDN controller successfully enforces access control policies using flow rules.
 
 ### Flow Table (Drop Rule)
 ![Flow Table](screenshots/4.png)
+## Flow Table Analysis
+
+The flow table contains rules such as:
+
+actions=drop
+
+This rule blocks communication between specific hosts (h1 and h3), enforcing access control using the SDN controller.
