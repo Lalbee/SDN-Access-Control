@@ -30,3 +30,16 @@ actions=drop
 ## Conclusion
 
 SDN controller successfully enforces access control policies using flow rules.
+## Screenshots
+
+### POX Controller Logs
+![Logs](screenshots/1.png)
+
+### Allowed Communication (h1 → h2)
+![Ping Success](screenshots/2.png)
+
+### Blocked Communication (h1 → h3)
+![Ping Blocked](screenshots/3.png)
+
+### Flow Table (Drop Rule)
+![Flow Table](screenshots/4.png)
